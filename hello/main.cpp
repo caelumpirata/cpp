@@ -10,11 +10,11 @@ int main(){
     cin >> input;
 
     //sum of date
-    int temp = input;
+    int x = input;
     int sum_date{0};
-    while(temp != 0){
-        sum_date = sum_date + temp % 10;
-        temp = temp / 10;
+    while(x != 0){
+        sum_date = sum_date + x % 10;
+        x = x / 10;
     }
     cout << "sum of date : " << sum_date << "\n";
 
