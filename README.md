@@ -2,7 +2,7 @@
 How to run
 
 >> go to: GRID > main.cpp
->> copy code from main.cpp
+>> copy code from *main.cpp*
 
 visit 
 ```
