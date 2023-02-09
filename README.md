@@ -6,7 +6,10 @@ go to: GRID > main.cpp
 .
 copy code from main.cpp
 
-visit oningdb.com
+visit 
+```
+https://www.onlinegdb.com/
+```
 
 select language as c++
 
