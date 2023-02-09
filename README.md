@@ -1,16 +1,14 @@
 ## C++ codes
+How to run
 
-
-run:
-go to: GRID > main.cpp
-.
-copy code from main.cpp
+>> go to: GRID > main.cpp
+>> copy code from main.cpp
 
 visit 
 ```
 https://www.onlinegdb.com/
 ```
 
-select language as c++
+>> select language as c++
 
-paste and run
+>> >>paste and run
