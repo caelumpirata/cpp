@@ -106,20 +106,91 @@ int main() {
     }
     cout << "sum of (sum of date) : "  << sum_date_final << "\n";
 
+    //inserting sum of (sum of date) inside grid
+     switch(sum_date_final){
+            case 4:
+                g4.push_back(sum_date_final);
+                break;
+            case 9:
+                g9.push_back(sum_date_final);
+                break;
+            case 2:
+                g2.push_back(sum_date_final);
+                break;
+            case 3:
+                g3.push_back(sum_date_final);
+                break;
+            case 5:
+                g5.push_back(sum_date_final);
+                break;
+            case 7:
+                g7.push_back(sum_date_final);
+                break;
+            case 8:
+                g8.push_back(sum_date_final);
+                break;
+            case 1:
+                g1.push_back(sum_date_final);
+                break;
+            case 6:
+                g6.push_back(sum_date_final);
+                break;
+            case 11:
+                g1.push_back(sum_date_final);
+                break;
+
+            default:
+                break;
+        }
+
+
     //sum of dd
+    int dd{0};
     if(sum_date_final == 11){
         cout << "Oops! can't add. 11 is super-special" << endl;
         int eleven = 11;
         g1.push_back(eleven);
     }else{
         int y = input / 1000000;
-        int dd{0};
         while (y != 0){
             dd = dd + y % 10;
             y = y / 10;
         }
         cout << "sum of DD : " << dd << "\n";
     }
+    //inserting DD inside grid
+    switch(dd){
+            case 4:
+                g4.push_back(dd);
+                break;
+            case 9:
+                g9.push_back(dd);
+                break;
+            case 2:
+                g2.push_back(dd);
+                break;
+            case 3:
+                g3.push_back(dd);
+                break;
+            case 5:
+                g5.push_back(dd);
+                break;
+            case 7:
+                g7.push_back(dd);
+                break;
+            case 8:
+                g8.push_back(dd);
+                break;
+            case 1:
+                g1.push_back(dd);
+                break;
+            case 6:
+                g6.push_back(dd);
+                break;
+
+            default:
+                break;
+        }
 
 
 
