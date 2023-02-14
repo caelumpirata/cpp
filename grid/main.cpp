@@ -241,5 +241,64 @@ int main() {
         cout << *i << " ";
 
 
+    cout << "\n";
+    cout << "--------------------------------------" << "\n";
+
+
+    //Checking for Plane - ROW WISE
+    if(!g4.empty() && !g9.empty() && !g2.empty()) {
+        cout << "Mental Plane" << "\n";
+    }
+
+    if(!g3.empty() && !g5.empty() && !g7.empty()) {
+        cout << "Emotion Plane" << "\n";
+    }
+
+    if(!g8.empty() && !g1.empty() && !g6.empty()) {
+        cout << "Practical Plane" << "\n";
+    }
+
+    cout << "--------------------------------------" << "\n";
+
+    //Checking for Plane - COLUMN WISE
+    if(!g4.empty() && !g3.empty() && !g8.empty()) {
+        cout << "Thought Plane" << "\n";
+    }
+
+    if(!g9.empty() && !g5.empty() && !g1.empty()) {
+        cout << "Will Plane" << "\n";
+    }
+
+    if(!g2.empty() && !g7.empty() && !g6.empty()) {
+        cout << "Action Plane" << "\n";
+    }
+
+    cout << "--------------------------------------" << "\n";
+
+
+    //Checking for Success Plane
+    if(!g4.empty() && !g5.empty() && !g6.empty()) {
+        cout << "Success Plane 1 " << "\n";
+    }
+
+    if(!g2.empty() && !g5.empty() && !g8.empty()) {
+        cout << "Success Plane 2 " << "\n";
+    }
+
+
+    //cout << endl;
+    //cout <<  "----------" << endl;
+    //cout <<  g4.at(0) << " | "  <<  g3.at(0) << " | " <<  g8.at(0) << endl;
+    //cout <<  "----------" << endl;
+    //cout <<  g9.at(0) << " | "  <<  g5.at(0) << " | " <<  g1.at(0) << endl;
+    //cout <<  "----------" << endl;
+    //cout <<  g2.at(0) << " | "  <<  g7.at(0) << " | " <<  g6.at(0) << endl;
+    //cout <<  "----------" << endl;
+
+
+
+
+
+
     return 0;
 }
