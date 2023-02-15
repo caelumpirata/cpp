@@ -286,14 +286,93 @@ int main() {
     }
 
 
-    //cout << endl;
-    //cout <<  "----------" << endl;
-    //cout <<  g4.at(0) << " | "  <<  g3.at(0) << " | " <<  g8.at(0) << endl;
-    //cout <<  "----------" << endl;
-    //cout <<  g9.at(0) << " | "  <<  g5.at(0) << " | " <<  g1.at(0) << endl;
-    //cout <<  "----------" << endl;
-    //cout <<  g2.at(0) << " | "  <<  g7.at(0) << " | " <<  g6.at(0) << endl;
-    //cout <<  "----------" << endl;
+    string one, two, three, four, five, six, seven, eight, nine;
+
+
+    cout << endl;
+
+    if(g4.empty()){
+        one = " ";
+    }else{
+        one = to_string(g4.at(0));
+        cout << "SOFT WOOD !" << endl;
+    }
+
+    if(g9.empty()){
+        two = " ";
+    }else{
+        two = to_string(g9.at(0));
+        cout << "FIRE ELEMENT !" << endl;
+    }
+
+    if(g2.empty()){
+        three = " ";
+    }else{
+        three = to_string(g2.at(0));
+        cout << "EARTH ELEMENT !" << endl;
+    }
+
+
+
+
+    if(g3.empty()){
+        four = " ";
+    }else{
+        four = to_string(g3.at(0));
+        cout << "HARD WOOD !" << endl;
+    }
+
+    if(g5.empty()){
+        five = " ";
+    }else{
+        five = to_string(g5.at(0));
+        cout << "EARTH !" << endl;
+    }
+
+    if(g7.empty()){
+        six = " ";
+    }else{
+        six = to_string(g7.at(0));
+        cout << "SOFT METAL !" << endl;
+    }
+
+
+
+
+
+    if(g8.empty()){
+        seven = " ";
+    }else{
+        seven = to_string(g8.at(0));
+        cout << "EARTH !" << endl;
+    }
+
+    if(g1.empty()){
+        eight = " ";
+    }else{
+        eight = to_string(g1.at(0));
+        cout << "WATER !" << endl;
+    }
+
+    if(g6.empty()){
+        nine = " ";
+    }else{
+        nine = to_string(g6.at(0));
+        cout << "HARD !" << endl;
+    }
+
+
+
+
+
+    cout << endl;
+    cout <<  "----------" << endl;
+    cout <<  one << " | "  <<  two << " | " << three << endl;
+    cout <<  "----------" << endl;
+    cout <<  four << " | "  <<  five << " | " <<  six << endl;
+    cout <<  "----------" << endl;
+    cout <<  seven << " | "  <<  eight << " | " <<  nine << endl;
+    cout <<  "----------" << endl;
 
 
 
