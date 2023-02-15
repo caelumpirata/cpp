@@ -107,6 +107,7 @@ int main() {
     cout << "sum of (sum of date) : "  << sum_date_final << "\n";
 
     //inserting sum of (sum of date) inside grid
+    int ten = 1;
      switch(sum_date_final){
             case 4:
                 g4.push_back(sum_date_final);
@@ -135,8 +136,8 @@ int main() {
             case 6:
                 g6.push_back(sum_date_final);
                 break;
-            case 11:
-                g1.push_back(sum_date_final);
+            case 10:
+                g1.push_back(ten);
                 break;
 
             default:
@@ -186,6 +187,9 @@ int main() {
                 break;
             case 6:
                 g6.push_back(dd);
+                break;
+            case 10:
+                g1.push_back(ten);
                 break;
 
             default:
