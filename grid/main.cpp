@@ -92,10 +92,22 @@ int main() {
     //sum of date
     int x = input;
     int sum_date{0};
-    while(x != 0){
-        sum_date = sum_date + x % 10;
-        x = x / 10;
+
+    //if DD value is 11 : how to add
+    if(c == tl == 1){
+        cout << "found DD value as : 11" << endl;
+        sum_date = 11;
+        for(int i=0; i < 6; i++){
+            sum_date = sum_date + x % 10;
+            x = x / 10;
+        }
+    }else{
+        for(int i=0; i < 8; i++){
+            sum_date = sum_date + x % 10;
+            x = x / 10;
+        }
     }
+
     cout << "sum of date : " << sum_date << "\n";
 
     //sum of (sum of date)
